@@ -1,0 +1,35 @@
+.shap1,
+.shap2 {
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.topCross,
+.bottomCross {
+  animation-name: shape-rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shape-rotate {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(1.5) rotate(360deg);
+  }
+}
